@@ -88,7 +88,7 @@ class FoodFileSystemTests(unittest.TestCase):
         return meal
 
     def setUp(self):
-        self.fdb = FoodFileSystem("TestData/testCsv.csv")
+        self.fdb = FoodFileSystem("testCsv.csv")
         self.meal = self.prepareMeal()
         self.kurczakPath = "Recipies/test_Kurczak z ryzem.txt"
 
